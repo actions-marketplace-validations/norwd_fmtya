@@ -109,7 +109,7 @@ runs:
         token: ${{ inputs.token }}
 
     - name: "Setup Go"
-      uses: actions/setup-go@v3
+      uses: actions/setup-go@v4
       with:
         token: ${{ inputs.token }}
 
