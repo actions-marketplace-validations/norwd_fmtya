@@ -102,7 +102,7 @@ jobs:
           token: "${{ secrets.AUTO_TAG_FMTYA }}"
 
       - name: "Setup GPG Signing Key"
-        uses: crazy-max/ghaction-import-gpg@v5
+        uses: crazy-max/ghaction-import-gpg@v7
         with:
           gpg_private_key: ${{ secrets.AUTO_COMMIT_GPG_PRIVATE_KEY_FMTYA }}
           passphrase: ${{ secrets.AUTO_COMMIT_GPG_PASSPHRASE_FMTYA }}
