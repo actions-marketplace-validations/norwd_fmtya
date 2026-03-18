@@ -186,7 +186,7 @@ runs:
     - name: "Setup GPG Keys"
       if: inputs.signing-private-key != ''
       continue-on-error: true
-      uses: crazy-max/ghaction-import-gpg@v5.2.0
+      uses: crazy-max/ghaction-import-gpg@v7
       with:
         gpg_private_key: ${{ inputs.signing-private-key }}
         passphrase: ${{ inputs.signing-passphrase }}
