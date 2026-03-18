@@ -93,7 +93,7 @@ jobs:
           ref: "${{ github.ref_name }}"
 
       - name: "Setup Git Credentials"
-        uses: oleksiyrudenko/gha-git-credentials@v2.1.1
+        uses: oleksiyrudenko/gha-git-credentials@v2.1.2
         with:
           global: true
           name: "norwd"
